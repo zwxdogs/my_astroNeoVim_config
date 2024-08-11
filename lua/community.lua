@@ -9,5 +9,8 @@ return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.cpp" },
+  { import = "astrocommunity.utility.noice-nvim" },
+  { import = "astrocommunity.completion.cmp-cmdline" },
+  
   -- import/override with your plugins folder
 }
